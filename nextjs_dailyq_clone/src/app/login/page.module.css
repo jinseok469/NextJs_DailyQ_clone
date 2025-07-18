@@ -1,0 +1,118 @@
+.Login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; /* 내부 콘텐츠가 넘칠 경우만 */
+    box-sizing: border-box;
+    background-color: white;
+  
+  }
+  
+  .Login_img{
+    background-color: #00664f;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-top: 12vh;
+  }
+  
+  
+  .Login_main{
+    padding: 3vh 4vh; /* or 좌우만 */
+  }
+  
+  .main_header_text {
+    font-size:30px;
+    font-weight: 600;
+  }
+  
+  .main_header_semitext{
+    margin-top:10px;
+    color: #8E939F;
+  }
+  
+  .main_button{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+     
+  }
+  
+  .google_button{
+    width: clamp(300px,80vw,400px);
+    border: 1px solid transparent;
+     cursor:pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:2vh;
+     font-size:1.1rem;
+     font-weight: 500;
+     color:black;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border:2px solid #00664f;
+    border-radius: 30px;
+    padding:1.3vh 7vh;
+  }
+  
+  .google_button img {
+    width: 30px;
+    object-fit: contain;
+  }
+  .apple_button{
+    width: clamp(300px,80vw,400px);
+    border: 1px solid transparent;
+     cursor:pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:2vh;
+     color:black;
+     font-size:1.1rem;
+     font-weight: 500;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border:2px solid #00664f;
+    border-radius: 30px;
+    padding:1.3vh 7vh;
+  }
+  
+  .apple_button img {
+    width: 30px;
+    object-fit: contain;
+  }
+  
+  .nomal_button{
+    color: #8E939F;
+    background-color: white;
+    border: 2px solid transparent;
+    font-size: 15px;
+     cursor:pointer;
+   width: fit-content;
+   margin:0 auto;
+  }
+  
+  .Login_img_mark{
+    display: flex;
+    justify-content: center;
+  }
+  .Login_img_mark img{
+    width: 250px;
+  }
+  
+  .Login_img_image{
+    display: flex;
+  justify-content: flex-end;
+  padding:0px;
+  }
+  
+  .Login_img_image img{
+  width: 300px;
+  
+  }
